@@ -4,7 +4,7 @@
 
 ## Solution
 Analyze the code
-```arm
+```assembly
 func:
         sub     sp, sp, #32
         str     w0, [sp, 12]    # *(sp+12)=user input

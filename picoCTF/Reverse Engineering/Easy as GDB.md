@@ -75,7 +75,7 @@ Check the assembly code and get the offset of comparison, `0x98e`
 
 ```
 Run the executable in debugging mode, get the starting address
-```
+```console
 ❯ gdb brute -q
 gef➤  start
 gef➤  vmmap

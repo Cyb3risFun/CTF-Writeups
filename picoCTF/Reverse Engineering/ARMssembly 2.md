@@ -4,7 +4,7 @@
 
 ## Solution
 Anaylse the code
-```arm
+```assembly
 func1:
 	sub	sp, sp, #32
 	str	w0, [sp, 12]    # *(sp+12)=2403814618

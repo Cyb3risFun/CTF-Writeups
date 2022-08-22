@@ -43,7 +43,7 @@ The whole function prints the flag 1 character at once; The first function call 
 We can bypass the delay function in GDB, but I'm missing a shared object file which blocks me from executing the program, so I'll manully follow the functions and grab the flag
 I'll show the process grabbing the first character
 Follow the first function
-```
+```c
 void FUN_00102616(void)
 
 {
@@ -53,7 +53,7 @@ void FUN_00102616(void)
 
 ```
 Follow the parameter 
-```
+```assembly
 DAT_00102cd8                                    XREF[3]:     FUN_00102616:0010261f(*), 
                                                                                           FUN_00102616:0010262d(*), 
                                                                                           FUN_00102616:00102636(*)  

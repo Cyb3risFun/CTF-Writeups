@@ -4,7 +4,7 @@
 
 ## Solution
 Read the ARM Assembly code, func1 is most important
-```arm
+```assembly
 func1:
         sub     sp, sp, #16
         str     w0, [sp, 12]

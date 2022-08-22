@@ -68,7 +68,7 @@ print(xor(unhex(s1),unhex(s2)).decode())
 reverseengineericanbarelyforward
 ```
 Run the program and enter the password, its looking for another unhashed key
-```
+```console
 ❯ ./enter_password
 Enter Password: reverseengineericanbarelyforward
 =========================================

@@ -4,7 +4,7 @@
 
 ## Solution
 Analyze the ARM assmebly code
-```arm
+```assembly
 func1:
 	stp	x29, x30, [sp, -48]!
 	add	x29, sp, 0

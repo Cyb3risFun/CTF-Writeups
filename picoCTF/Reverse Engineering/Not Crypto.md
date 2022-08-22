@@ -17,7 +17,7 @@ Notice that at the end of the function, it validates the input with `memcmp`
       }
 ```
 Look at the assembly code, the `memcmp` call is at address `0x001013b9`, whereas the address begins at `0x00100000` in `Ghidra`, so the offset is `0x13b9`
-```
+```assembly
         001013aa 48 8b 74        MOV        RSI,qword ptr [RSP + local_1c8]
                  24 40
         001013af ba 40 00        MOV        EDX,0x40
